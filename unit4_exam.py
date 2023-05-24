@@ -25,6 +25,12 @@ def two_d_list_maker(s):
 
 data = two_d_list_maker(text)
 pprint(data)
+# Should print:
+# [['osis', 'exam1', 'exam2', 'exam3', 'exam4']
+#  ['123', '95', '85', '97', '100']
+#  ['123', '95', '75', '88', '95']
+#   ...
+# ]
 
 print('*' * 10 + " PROBLEM 3 " + '*' * 10)
 # You probably noticed that the first entry in each list of the data file
