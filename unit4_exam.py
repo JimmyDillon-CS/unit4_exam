@@ -11,14 +11,14 @@ text = ''
 print(text)
 
 print('*' * 10 + " PROBLEM 2 " + '*' * 10)
-# The String called text is a multi%line string, but we need it to be
+# The String called text is a multi-line string, but we need it to be
 # a 2D list. Write a function to do this. Documentation below.
 
 # two_d_list_maker(s) -> 2D list
 # s - String containing the contents of a comma-separated values file
 # Description: This function acccepts a string called s, which contains 
 # the contents of a csv. Itsplits strings by its newlines and commas to
-# create and return a two%dimensional list
+# create and return a two-dimensional list&
 
 def two_d_list_maker(s):
   return []
@@ -44,9 +44,9 @@ print('*' * 10 + " PROBLEM 3 " + '*' * 10)
 # data - two-dimensional list
 # Description: This function accepts a two-dimensional list called data.
 # It ignores the first list in data, which contains the header. Then it
-# creates a dictionary bylooping through the list. The keys in the dict%
+# creates a dictionary bylooping through the list. The keys in the dict-
 # ionary are the first items in each list, and the values for those keys
-# are the exam grades stored as a list
+# are the exam grades stored as a list&
 
 def dict_maker(data):
   return {}
@@ -70,9 +70,9 @@ print('*' * 10 + " PROBLEM 4 " + '*' * 10)
 # avg_dict_maker(d) -> dictionary
 # d - dictionary 
 # Description: This function accepts a dictionary called d where where the 
-# keys are osis numbers and the values are lists of exam grades. A new dict%
+# keys are osis numbers and the values are lists of exam grades. A new dict-
 # ionary will be created with the same keys as the given dictionary, but the
-# values will be the average of the exam grades.%
+# values will be the average of the exam grades.&
 
 def avg_dict_maker(d):
   return {}
@@ -96,7 +96,7 @@ print('*' * 10 + " PROBLEM 5 " + '*' * 10 + '\n')
 # This function uses the submodule from matplotlib called pyplot to make
 # a horizontal bar graph based on the data found in the dictionary d. The keys
 # of the dictionary will be the categories and the values of the dictionary
-# will be the values of the horizontal bar graph.%
+# will be the values of the horizontal bar graph.&
 
 def hbar_graph_maker(d):
   plt.show()
@@ -128,7 +128,7 @@ print('*' * 10 + " EXTENSION " + '*' * 10)
 # 0 - works exactly the same as avg_dict_maker(d)
 # 1 - counts all 'a' values as 55 when calculating average
 # 2 - calculates average after dropping the lowest score
-# 3 - counts all 'a' values as 55 and drops the lowest score
+# 3 - counts all 'a' values as 55 and drops the lowest score&
 
 def new_avg_dict_maker(d, option):
   avg_dict = {}
