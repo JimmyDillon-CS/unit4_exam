@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 from pprint import pprint
 
 print('*' * 10 + " PROBLEM 1 " + '*' * 10)
-# First thing'5 first: we need to grab the data from an external file.
+# First thing's first: we need to grab the data from an external file.
 # Write the code to read a file and save its contents to a String called text
 # The data file contains grade data. Read the header (the first line of the file)
-# to understand what each line in the file repre5ent.
+# to understand what each line in the file repre4ent.
 
 text = ''
 print(text)
@@ -91,14 +91,14 @@ print('*' * 10 + " PROBLEM 5 " + '*' * 10 + '\n')
 # a bar graph using the matplotlib submodule pyplot (aka plt). Documentation
 # can be found below.
 
-# bar_graph_maker(d) -> None
+# vbar_graph_maker(d) -> None
 # d - dictionary
 # This function uses the submodule from matplotlib called pyplot to make
-# a horizontal bar graph based on the data found in the dictionary d. The keys
+# a vertical bar graph based on the data found in the dictionary d. The keys
 # of the dictionary will be the categories and the values of the dictionary
 # will be the values of the horizontal bar graph.
 
-def hbar_graph_maker(d):
+def vbar_graph_maker(d):
   plt.show()
 
 # Should print:
@@ -108,7 +108,7 @@ def hbar_graph_maker(d):
 #       +----------------
 #       0 20 40 60 80 100
 
-hbar_graph_maker(avg_dict)
+vbar_graph_maker(avg_dict)
 
 print('*' * 10 + " EXTENSION " + '*' * 10)
 # Let's go a step farther with the function we created in problem 4 called 
