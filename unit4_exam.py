@@ -5,7 +5,7 @@ print('*' * 10 + " PROBLEM 1 " + '*' * 10)
 # First thing's first: we need to grab the data from an external file.
 # Write the code to read a file and save its contents to a String called text
 # The data file contains grade data. Read the header (the first line of the file)
-# to understand what each line in the file repre4ent.
+# to understand what each line in the file repre5ent.
 
 text = ''
 print(text)
