@@ -132,7 +132,7 @@ print('*' * 10 + " EXTENSION " + '*' * 10)
 
 def new_avg_dict_maker(d, option):
   avg_dict = {}
-  hbar_graph_maker(avg_dict)
+  vbar_graph_maker(avg_dict)
   return avg_dict
 
 # Uncomment these tests when you're ready.
