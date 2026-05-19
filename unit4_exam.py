@@ -97,6 +97,9 @@ print('*' * 10 + " PROBLEM 5 " + '*' * 10 + '\n')
 # a vertical bar graph based on the data found in the dictionary d. The keys
 # of the dictionary will be the categories and the values of the dictionary
 # will be the values of the horizontal bar graph.
+#
+# Note: when you get the keys and values from the dictionary, you must wrap
+# turn them into lists first.
 
 def vbar_graph_maker(d):
   plt.show()
